@@ -19,16 +19,15 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Material for MkDocs
-site_url: https://squidfunk.github.io/mkdocs-material/
-site_author: Martin Donath
+site_name: 《嵌入式学习笔记》
+site_url: https://github.com/lybhb8/mkdocs-embedded-notes
+site_author: Bobolin
 site_description: >-
-  Write your documentation in Markdown and create a professional static site in
-  minutes – searchable, customizable, in 60+ languages, for all devices
+ mkdocs-material 部署的《嵌入式学习笔记》
 
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: lybhb8/mkdocs-embedded-notes
+repo_url: https://github.com/lybhb8/mkdocs-embedded-notes
 
 # Copyright
 copyright: Copyright &copy; 2016 - 2024 Martin Donath
@@ -36,6 +35,9 @@ copyright: Copyright &copy; 2016 - 2024 Martin Donath
 # Configuration
 theme:
   name: material
+  language: zh
+  logo: assets/logo.png
+  favicon: assets/favicon.png
   custom_dir: material/overrides
   features:
     - announce.dismiss
@@ -93,7 +95,7 @@ theme:
 
 # Plugins
 plugins:
-  - blog
+  #- blog
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
