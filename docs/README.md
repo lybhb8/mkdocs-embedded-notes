@@ -1,6 +1,10 @@
-# 面试要点记录
-> 主要涉及到嵌入式软件开发、嵌入式驱动开发、IOT开发、git等知识点。
-> 最新的请参考[wiki](https://github.com/xiaowenxia/embedded-notes/wiki)和我的[个人博客](https://xiaowenxia.github.io/embedded-notes/)
+
+# embedded-notes
+> - 主要涉及到嵌入式软件开发、嵌入式驱动开发、IOT开发、git等知识点。
+> - 转载自[原文wiki](https://github.com/xiaowenxia/embedded-notes/wiki)和[xiaowenxia的博客](https://xiaowenxia.github.io/embedded-notes/)
+> - 应用mkdocs-material主题重新部署，更适合阅读。
+> - 感谢原作者xiaowenxia的无私奉献！
+> - 如有侵权，请联系删除。
 ---
 ### 要点
 - [x] c基础知识
